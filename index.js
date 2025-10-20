@@ -54,7 +54,7 @@ app.post('/api/users', (req, res) => {
         console.error(err);
         return res.status(500).json({ message: "Database Error" });
       }
-      res.status(201).json({ message: "User added successfully" });
+      res.status(201).json({ message: "User Created successfully" });
     }
   ); 
 }); 
